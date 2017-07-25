@@ -18,4 +18,6 @@ export LKL_HIJACK_NET_NETMASK_LEN=24
 export LKL_HIJACK_NET_GATEWAY=10.0.0.1
 export LKL_HIJACK_DEBUG=1
 
+sed -i s/__OUT__/$OUT_SERVER/g /root/config.json
+
 /root/v2ray -config /root/config.json

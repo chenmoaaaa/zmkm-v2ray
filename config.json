@@ -16,7 +16,7 @@
     "settings": {
       "vnext": [
         {
-          "address": "out",
+          "address": "__OUT__",
           "port": 8086,
           "users": [
             {
